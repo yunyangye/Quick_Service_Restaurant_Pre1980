@@ -57,7 +57,7 @@ def runModel(climate,param_values,num_model,round_num,output):
     
     #run the models
     #'/usr/bin/openstudio': path of the software
-    os.system("'/usr/bin/openstudio' run -w './"+str(num_model)+"/compact.osw'")
+    os.system("openstudio run -w './"+str(num_model)+"/compact.osw'")
 
     #get the results
     #output data
